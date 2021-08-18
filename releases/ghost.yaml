@@ -21,8 +21,8 @@ spec:
       enabled: false
     resources:
       requests:
-        memory: 32Mi
-        cpu: 10m
+        memory: 512Mi
+        cpu: 500m
     service:
       type: ClusterIP
     mariadb:
